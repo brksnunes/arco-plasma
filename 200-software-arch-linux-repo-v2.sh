@@ -20,7 +20,7 @@ set -e
 echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
-sudo pacman -S --noconfirm --needed cmatrix
+#sudo pacman -S --noconfirm --needed cmatrix
 #sudo pacman -S --noconfirm --needed galculator
 #sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed plank
@@ -32,7 +32,7 @@ sudo pacman -S --noconfirm --needed variety
 echo "Installing category Development"
 
 sudo pacman -S --noconfirm --needed atom
-sudo pacman -S --noconfirm --needed geany
+sudo pacman -S --noconfirm --needed android-tools
 sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
@@ -71,7 +71,7 @@ echo "Installing category Multimedia"
 #sudo pacman -S --noconfirm --needed deadbeef
 #sudo pacman -S --noconfirm --needed mpv
 #sudo pacman -S --noconfirm --needed openshot
-sudo pacman -S --noconfirm --needed pragha
+#sudo pacman -S --noconfirm --needed pragha
 #sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 #sudo pacman -S --noconfirm --needed smplayer
@@ -83,7 +83,7 @@ echo "Installing category Office"
 sudo pacman -S --noconfirm --needed evince
 #sudo pacman -S --noconfirm --needed evolution
 #sudo pacman -S --noconfirm --needed geary
-#sudo pacman -S --noconfirm --needed libreoffice-fresh
+sudo pacman -S --noconfirm --needed libreoffice-fresh
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Other"
@@ -92,7 +92,7 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
-#sudo pacman -S --noconfirm --needed arc-gtk-theme
+sudo pacman -S --noconfirm --needed arc-gtk-theme
 sudo pacman -S --noconfirm --needed accountsservice
 #sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed baobab
@@ -115,8 +115,8 @@ sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
 sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed htop
-#sudo pacman -S --noconfirm --needed kvantum-qt5
-#sudo pacman -S --noconfirm --needed kvantum-theme-arc
+sudo pacman -S --noconfirm --needed kvantum-qt5
+sudo pacman -S --noconfirm --needed kvantum-theme-arc
 sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed mlocate
