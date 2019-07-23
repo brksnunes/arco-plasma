@@ -14,31 +14,18 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-echo "#################################################"
-echo "If it feels like the downloads are too slow"
-echo "Stop the installation with CTRL + C"
-echo "and run the alias - mirror in the terminal"
-echo "#################################################"
-
-#echo "Removing xcursor-breeze to avoid conflict with breeze"
-#sudo pacman -R xcursor-breeze --noconfirm
-
 sudo pacman -Syyu --noconfirm
 
 #installing displaymanager or login manager
-#sudo pacman -S --noconfirm --needed lightdm
-sudo pacman -S --noconfirm --needed xorg xorg-xinit
+sudo pacman -S --noconfirm --needed xorg-server xorg-xinit
 echo "exec startkde" > ~/.xinitrc
-
-#installing desktop environment
-sudo pacman -S plasma-meta --noconfirm --needed
-sudo pacman -S --noconfirm --needed dolphin konsole
 
 #installing displaymanager or login manager
 sudo pacman -S --noconfirm --needed sddm
-
-
-#enabling displaymanager or login manager
 sudo systemctl enable sddm.service -f
-#sudo systemctl set-default graphical.target
 
+#installing desktop environment
+sudo pacman -S plasma --noconfirm --needed
+sudo pacman -S --noconfirm --needed dolphin konsole
+
+#sudo systemctl set-default graphical.target
