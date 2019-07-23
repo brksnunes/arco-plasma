@@ -20,16 +20,16 @@ set -e
 echo "Installing category Accessories"
 
 sudo pacman -S --noconfirm --needed catfish
-sudo pacman -S --noconfirm --needed plank
-sudo pacman -S --noconfirm --needed variety
-#sudo pacman -S --noconfirm --needed
+# sudo pacman -S --noconfirm --needed plank
+# sudo pacman -S --noconfirm --needed variety
+# sudo pacman -S --noconfirm --needed
 
 
 echo "Installing category Development"
 
-sudo pacman -S --noconfirm --needed atom
+# sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed android-tools
-sudo pacman -S --noconfirm --needed meld
+# sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Graphics"
@@ -37,16 +37,16 @@ echo "Installing category Graphics"
 sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed gnome-font-viewer
-sudo pacman -S --noconfirm --needed gpick
+# sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed inkscape
-sudo pacman -S --noconfirm --needed nomacs
+# sudo pacman -S --noconfirm --needed nomacs
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Internet"
 
-sudo pacman -S --noconfirm --needed chromium
+# sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed firefox
-sudo pacman -S --noconfirm --needed qbittorrent
+# sudo pacman -S --noconfirm --needed qbittorrent
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
@@ -72,7 +72,7 @@ sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
-sudo pacman -S --noconfirm --needed git
+# sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed glances
 #sudo pacman -S --noconfirm --needed gnome-disk-utility
 #sudo pacman -S --noconfirm --needed gnome-keyring
@@ -114,8 +114,8 @@ sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed wmctrl
 sudo pacman -S --noconfirm --needed unclutter
-sudo pacman -S --noconfirm --needed rxvt-unicode
-sudo pacman -S --noconfirm --needed urxvt-perls
+# sudo pacman -S --noconfirm --needed rxvt-unicode
+# sudo pacman -S --noconfirm --needed urxvt-perls
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 #sudo pacman -S --noconfirm --needed
 
